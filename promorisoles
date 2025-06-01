@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risoles Premium - Gurih Renyah Nikmat!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF9F0;
+            color: #5C3D2E;
+        }
+        
+        .header {
+            background-color: #E67A00;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .promo-banner {
+            background-color: #FFD700;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0;
+            border-radius: 8px;
+            font-size: 1.2em;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .product-info {
+            padding: 20px;
+        }
+        
+        .product-title {
+            font-size: 1.4em;
+            margin: 0 0 10px 0;
+            color: #E67A00;
+        }
+        
+        .product-description {
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #C45500;
+            font-size: 1.3em;
+        }
+        
+        .original-price {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #5C3D2E;
+            color: white;
+        }
+        
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>RISOLES PREMIUM</h1>
+        <p>Gurih di luar, Lumer di dalam!</p>
+    </div>
+    
+    <div class="container">
+        <div class="promo-banner">
+            🔥 PROMO SPESIAL! Beli 2 Gratis 1 (Min. Order 3 Box) - Buruan sebelum kehabisan! 🔥
+        </div>
+        
+        <div class="product-grid">
+            <!-- Produk 1 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Risoles Keju Melted" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Risoles Keju Lumer</h3>
+                    <p class="product-description">Kulit risoles super renyah dengan isian keju mozzarella yang meleleh sempurna saat digigit!</p>
+                    <div class="price">Rp 25.000/box <span class="original-price">Rp 30.000</span></div>
+                    <a href="https://wa.me/6281234567890?text=Saya%20mau%20pesan%20Risoles%20Keju%20Lumer" class="whatsapp-btn">Pesan via WhatsApp</a>
+                </div>
+            </div>
+            
+            <!-- Produk 2 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Risoles Ragout Special" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Risoles Ragout Spesial</h3>
+                    <p class="product-description">Perpaduan daging sapi premium, wortel, dan kentang dengan bumbu rahasia keluarga!</p>
+                    <div class="price">Rp 28.000/box <span class="original-price">Rp 35.000</span></div>
+                    <a href="https://wa.me/6281234567890?text=Saya%20mau%20pesan%20Risoles%20Ragout%20Spesial" class="whatsapp-btn">Pesan via WhatsApp</a>
+                </div>
+            </div>
+            
+            <!-- Produk 3 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1540713434306-58505cf1b6fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Risoles Coklat Crispy" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Risoles Coklat Crispy</h3>
+                    <p class="product-description">Inovasi terbaru! Risoles dessert dengan coklat Belgia premium yang lumer di mulut!</p>
+                    <div class="price">Rp 22.000/box <span class="original-price">Rp 27.000</span></div>
+                    <a href="https://wa.me/6281234567890?text=Saya%20mau%20pesan%20Risoles%20Coklat%20Crispy" class="whatsapp-btn">Pesan via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>📞 Hubungi Kami: 0812-3456-7890</p>
+        <p>📍 Jl. Rasa Enak No. 123, Jakarta</p>
+        <p>⏰ Buka Setiap Hari 08:00-20:00 WIB</p>
+    </div>
+</body>
+</html>
